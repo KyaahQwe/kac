@@ -20,17 +20,16 @@ import time
 time.sleep(1)
 choice = st.radio("Choose One Darling", ["Yes,I Do", "No, I Dont"])
 if choice == 'Yes,I Do':
-    st.write('Then why not do it now right?')
+    st.write('Then why not do it now right? Anyway a kitty pic for you')
 else:
     st.write('Awww, i dont think ill be able to help much but here is some kitties picture for you')
-    import time
     time.sleep(2)
-    st.image("https://i.pinimg.com/564x/ea/5b/30/ea5b303fbb727e71f12f76e2038cfdf3.jpg", caption="like i said it is kitties :3")
-    import time
-    time.sleep(4)
-    st.write('So? Is it cute?')
-    time.sleep(1)
-    choice = st.radio('Choose carefully peasant...', ['IT IS SO CUTEEEE', 'nah its not that cute/ im a dog person'])
+st.image("https://i.pinimg.com/564x/ea/5b/30/ea5b303fbb727e71f12f76e2038cfdf3.jpg", caption="like i said it is kitties :3")
+   
+time.sleep(4)
+st.write('So? Is it cute?')
+time.sleep(1)
+choice = st.radio('Choose carefully peasant...', ['IT IS SO CUTEEEE', 'nah its not that cute/ im a dog person'])
 if choice == 'IT IS SO CUTEEEE':
     st.write('Just like you cutie🌷')
 else:
